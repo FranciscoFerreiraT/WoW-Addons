@@ -40,14 +40,16 @@ This repository contains a variety of experimental addons for World of Warcraft.
 6. Press the "Capture" button to take a screenshot.
 7. Press the "View entries" button to print all entries saved in the game console
 
-### Addon 2: AnotherAddon
+### Addon 2: MythicKeyManager
 
-**Description:** AnotherAddon demonstrates more advanced Lua scripting techniques.
+**Description:** This addon helps manage and coordinate Mythic+ keys within your guild or friends group.
 
 **Features:**
-- Advanced event handling
-- Data storage and retrieval
-- Interactive UI components
+- Custom UI elements resembling a key manager interface
+- Display and share available Mythic+ keys
+- Basic event handling for refreshing key data
+- Data storage and retrieval between sessions
+- Interactive UI components for refreshing and viewing keys
 
 **Usage:**
 1. Download the `AnotherAddon` folder.
@@ -58,9 +60,12 @@ This repository contains a variety of experimental addons for World of Warcraft.
 
 To install any of the addons in this repository:
 
-1. Download the desired addon folder.
-2. Copy the folder to your World of Warcraft `Interface/AddOns` directory.
-3. Launch World of Warcraft and enable the addon from the AddOns menu.
+1. Download the MythicKeyManager folder..
+2. Place it in your World of Warcraft Interface/AddOns directory.
+3. Enable the addon in-game.
+4. Write /run KeyManagerFrame:Show() in game chat to open the key manager.
+5. Press the "Refresh" button to update the list of available Mythic+ keys.
+6. View the list of keys and their details in the interface.
 
 ## Usage
 
