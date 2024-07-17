@@ -7,7 +7,7 @@ Welcome to the WoW-Addons repository! This collection is dedicated to experiment
 - [Introduction](#introduction)
 - [Addons](#addons)
   - [Addon 1: AdventureDiary](#addon-1-AdventureDiary)
-  - [Addon 2: AnotherAddon](#addon-2-anotheraddon)
+  - [Addon 2: MythicKeyManager](#addon-2-MythicKeyManager)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
