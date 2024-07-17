@@ -6,7 +6,7 @@ Welcome to the WoW-Addons repository! This collection is dedicated to experiment
 
 - [Introduction](#introduction)
 - [Addons](#addons)
-  - [Addon 1: ExampleAddon](#addon-1-exampleaddon)
+  - [Addon 1: AdventureDiary](#addon-1-AdventureDiary)
   - [Addon 2: AnotherAddon](#addon-2-anotheraddon)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -20,7 +20,7 @@ This repository contains a variety of experimental addons for World of Warcraft.
 
 ## Addons
 
-### Addon 1: ExampleAddon
+### Addon 1: AdventureDiary
 
 **Description:** This addon provides an example of how to create a simple interface modification.
 
@@ -28,11 +28,17 @@ This repository contains a variety of experimental addons for World of Warcraft.
 - Custom UI elements
 - Basic event handling
 - Example Lua scripts
+- Data storage and retrieval
+- Interactive UI components
 
 **Usage:**
-1. Download the `ExampleAddon` folder.
+1. Download the `AdventureDiary` folder.
 2. Place it in your World of Warcraft `Interface/AddOns` directory.
 3. Enable the addon in-game.
+4. Write /run DiaryFrame:Show() in game chat to open the diary.
+5. Type your adventures in the text field and press "Save" to record your entry.
+6. Press the "Capture" button to take a screenshot.
+7. Press the "View entries" button to print all entries saved in the game console
 
 ### Addon 2: AnotherAddon
 
