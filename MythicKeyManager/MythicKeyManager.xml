@@ -1,0 +1,58 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+    <Frame name="KeyManagerFrame" parent="UIParent" enableMouse="true" movable="true" toplevel="true">
+        <Size>
+            <AbsDimension x="500" y="600" />
+        </Size>
+        <Anchors>
+            <Anchor point="CENTER" />
+        </Anchors>
+        <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true" tileSize="32" edgeSize="32" insets="5">
+            <EdgeSize>
+                <AbsValue val="16" />
+            </EdgeSize>
+            <BackgroundInsets>
+                <AbsInset left="5" right="5" top="5" bottom="5" />
+            </BackgroundInsets>
+        </Backdrop>
+        <Frames>
+            <Button name="KeyManagerFrameCloseButton" inherits="UIPanelCloseButton">
+                <Anchors>
+                    <Anchor point="TOPRIGHT" />
+                </Anchors>
+            </Button>
+            <ScrollFrame name="KeyListScrollFrame">
+                <Size>
+                    <AbsDimension x="460" y="480" />
+                </Size>
+                <Anchors>
+                    <Anchor point="TOPLEFT" x="20" y="-40" />
+                </Anchors>
+                <ScrollChild name="KeyListScrollChild">
+                    <Size>
+                        <AbsDimension x="460" y="480" />
+                    </Size>
+                    <Frames>
+                        <FontString name="KeyListContent" inherits="GameFontNormal">
+                            <Anchors>
+                                <Anchor point="TOPLEFT" />
+                            </Anchors>
+                            <Color r="1" g="1" b="1" a="1"/>
+                        </FontString>
+                    </Frames>
+                </ScrollChild>
+            </ScrollFrame>
+            <Button name="RefreshButton" inherits="GameMenuButtonTemplate">
+                <Size>
+                    <AbsDimension x="120" y="30" />
+                </Size>
+                <Anchors>
+                    <Anchor point="BOTTOM" x="0" y="10" />
+                </Anchors>
+                <FontString inherits="GameFontNormalLarge" text="Refresh" />
+                <Scripts>
+                    <OnClick function="RefreshKeyList" />
+                </Scripts>
+            </Button>
+        </Frames>
+    </Frame>
+</Ui>
