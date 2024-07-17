@@ -1,0 +1,9 @@
+## Interface: 100007
+## Title: Adventure Diary
+## Notes: An in-game diary to record your adventures, achievements, and personal experiences.
+## Author: Francisco Ferreira Temperán
+## Version: 1.0
+## SavedVariables: AdventureDiaryDB
+
+AdventureDiary.lua
+AdventureDiary.xml
