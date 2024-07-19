@@ -6,8 +6,9 @@ Welcome to the WoW-Addons repository! This collection is dedicated to experiment
 
 - [Introduction](#introduction)
 - [Addons](#addons)
-  - [Addon 1: AdventureDiary](#addon-1-AdventureDiary)
-  - [Addon 2: MythicKeyManager](#addon-2-MythicKeyManager)
+  - [Addon 1: AdventureDiary](#addon-1-adventurediary)
+  - [Addon 2: MythicKeyManager](#addon-2-mythickeymanager)
+  - [Addon 3: MountCollectionHelper](#addon-3-mountcollectionhelper)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -35,10 +36,10 @@ This repository contains a variety of experimental addons for World of Warcraft.
 1. Download the `AdventureDiary` folder.
 2. Place it in your World of Warcraft `Interface/AddOns` directory.
 3. Enable the addon in-game.
-4. Write /run DiaryFrame:Show() in game chat to open the diary.
+4. Write `/run DiaryFrame:Show()` in game chat to open the diary.
 5. Type your adventures in the text field and press "Save" to record your entry.
 6. Press the "Capture" button to take a screenshot.
-7. Press the "View entries" button to print all entries saved in the game console
+7. Press the "View entries" button to print all entries saved in the game console.
 
 ### Addon 2: MythicKeyManager
 
@@ -52,20 +53,39 @@ This repository contains a variety of experimental addons for World of Warcraft.
 - Interactive UI components for refreshing and viewing keys
 
 **Usage:**
-1. Download the `AnotherAddon` folder.
+1. Download the `MythicKeyManager` folder.
 2. Place it in your World of Warcraft `Interface/AddOns` directory.
 3. Enable the addon in-game.
+4. Write `/run KeyManagerFrame:Show()` in game chat to open the key manager.
+5. Press the "Refresh" button to update the list of available Mythic+ keys.
+6. View the list of keys and their details in the interface.
+
+### Addon 3: MountCollectionHelper
+
+**Description:** This addon helps players manage and expand their mount collection with detailed information and tracking.
+
+**Features:**
+- Comprehensive mount database
+- Information on how to obtain each mount
+- Tracking of owned and unowned mounts
+- Notifications for mount opportunities
+- Integration with in-game events and activities
+
+**Usage:**
+1. Download the `MountCollectionHelper` folder.
+2. Place it in your World of Warcraft `Interface/AddOns` directory.
+3. Enable the addon in-game.
+4. Write `/run MountHelperFrame:Show()` in game chat to open the mount helper.
+5. Press the "Refresh" button to update the list of mounts.
+6. View detailed information and tracking in the interface.
 
 ## Installation
 
 To install any of the addons in this repository:
 
-1. Download the MythicKeyManager folder..
-2. Place it in your World of Warcraft Interface/AddOns directory.
+1. Download the addon folder (e.g., `AdventureDiary`, `MythicKeyManager`, `MountCollectionHelper`).
+2. Place it in your World of Warcraft `Interface/AddOns` directory.
 3. Enable the addon in-game.
-4. Write /run KeyManagerFrame:Show() in game chat to open the key manager.
-5. Press the "Refresh" button to update the list of available Mythic+ keys.
-6. View the list of keys and their details in the interface.
 
 ## Usage
 
